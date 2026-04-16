@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
-    "build": "npm install --prefix backend && npm install -- prefix frontend && npm run build --prefix frontend",
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend"
   },
   "repository": {
@@ -18,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/swap2097/chatify-app/issues"
   },
-  "homepage": "https://github.com/swap2097/chatify-app#readme"
+  "homepage": "https://github.com/swap2097/chatify-app#readme",
+  "dependencies": {
+    "sass": "^1.99.0"
+  }
 }
